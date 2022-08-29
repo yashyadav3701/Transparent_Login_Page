@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    color:white;
+    height:100vh;
+    width:100vw;
+    background:url('/walpaper.jpg') center center/cover no-repeat;
+}
+.container{
+    /* display: inline; */
+    /* border:2px solid black; */
+    position:absolute;
+    top:20%;
+    left:40%;
+}
+.container h1{
+    width:100%;
+    /* text-align: center; */
+    display:inline;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom:2px solid white;
+    font-family: 'Lobster', cursive;
+}
+.box{
+    text-align: center;
+    margin:1.5rem 0rem;
+    /* border:2px solid red; */
+    /* padding:1.5rem 1.5rem; */
+    padding:12px 12px;
+    color:white;
+    border-bottom:2px solid white;
+    
+}
+.box li{
+    display:inline block;
+    width:60%;
+    /* align-align: center; */
+    padding:12px;
+}
+::placeholder{
+    color:white;
+}
+.box input{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    padding:12px 12px;
+    background:none;
+    outline: none;
+    border:none;
+    font-family: 'Shadows Into Light', cursive;
+}
+.box2{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.btn{
+    margin-top:22px;
+    cursor:pointer;
+    /* text-align:center; */
+    color:white;
+    border:2px solid white;
+    background: none;
+    font-size: 22px;
+    padding:6px 12px;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+}
+.btn:hover{
+    opacity:0.5;
+    color:black;
+    background-color: white;
+}
